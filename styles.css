@@ -1,0 +1,119 @@
+body {
+    background: #fff18e;
+}
+#button_container {
+	text-align: center;
+	margin: 10px auto;
+}
+#button {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 32px;
+	padding: 15px 30px;
+	background: #bc1939;
+	color: #f9fafa;
+	text-decoration: none;
+    border-radius: 10px;
+	border-top: 1px solid #c94660;
+	border-left: 1px solid #c94660;
+
+	text-shadow: 1px 2px 0 #831127;
+
+	box-shadow: 1px 0 0 #831127,   0 1px 0 #831127, 
+				2px 1px 0 #831127, 1px 2px 0 #831127,
+				3px 2px 0 #831127, 2px 3px 0 #831127,
+				4px 3px 0 #831127, 3px 4px 0 #831127,
+				4px 4px 2px #000;
+}
+label {
+    width: 100px; /* Ширина */
+    text-align: right; /* Выравниваем по правому краю */
+    float: top /* Выстраиваем элементы рядом */
+    margin-right: 10px; /* Расстояние от текста до текстового поля */
+    line-height: 30px; /* Выравниваем по высоте */
+   }
+.cat {
+    float: left;
+    /* Обтекание картинки по левому краю */
+    padding-left: 10px;
+    /* Отступ слева */
+    padding-bottom: 10px;
+    /* Отступ снизу */
+    border-radius: 30px;
+}
+body {
+    
+    position: relative;
+    min-height: 100%;
+    line-height: 1;
+    color: black;
+    background: white;
+}
+
+h1 {
+
+    font-size: 300%;
+    font-family: Impact, fantasy;
+    color: #333366;
+    text-align: center;
+
+    margin: 0 auto;
+    width: 800px;
+}
+
+
+h2 {
+
+
+    font-size: 250%;
+    font-family: Bradley Hand, cursive;
+    background-color: #242468;
+    color: #71719b;
+    text-align: center;
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+
+}
+#ican {
+    position: absolute;
+    top: 300px;
+    background-color: #242468;
+    margin-left: 10px;
+    width: 200px;
+    font-size: 100%;
+    font-family: Bradley Hand, cursive;
+    color: #71719b;
+    border-radius: 30px;
+    text-align: center;
+}
+#iwant {
+    position: relative;
+    top: 300px;
+    margin-top: 120px;
+    padding-bottom: 10px;
+    background-color: #242468;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 100%;
+    font-family: Bradley Hand, cursive;
+    color: #71719b;
+    border-radius: 30px;
+    text-align: center;
+}
+#socialNets {
+    text-align: center;
+
+    display: block;
+    margin: 0 auto;
+    bottom: 10px;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: -600px;;
+    width: 100%;
+
+}
