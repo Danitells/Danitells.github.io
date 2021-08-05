@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  background-color: #a51c1c;
+  color: ghostwhite;
+}
+
+div.table > img {
+  border-style: dotted;
+}
+img#sunset {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+#firstLorem,
+#secondLorem {
+  display: block;
+  margin-left: 30px;
+}
+div.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.table img {
+  display: block;
+  max-width: 300px;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  color: ghostwhite;
+  font-size: 16px;
+}
